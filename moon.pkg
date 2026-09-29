@@ -1,13 +1,14 @@
 import {
   "lepus-apps/lepus",
-  "lepus-apps/webview",
+  "lepus-apps/lepus/webview",
   "moonbitlang/async",
 }
 
 supported_targets = "+native"
 
+pkgtype(kind: "executable")
+
 options(
-  "is-main": true,
   link: {
     "native": {
       "cc": ".mooncakes/lepus-apps/lepus/_build/native/release/build/cli/cc/cc.exe",
