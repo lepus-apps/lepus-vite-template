@@ -8,6 +8,7 @@
     "start": "vite",
     "preview": "vite preview",
     "build": "tsc && vite build && .mooncakes/lepus-apps/lepus/_build/native/release/build/cli/lepus/lepus.exe build && moon build --release",
+    "bundle": ".mooncakes/lepus-apps/lepus/_build/native/release/build/cli/lepus/lepus.exe bundle",
     "dev": "concurrently -k \"vite dev --port 2333\" \"moon run main.mbt\""
   },
   "devDependencies": {
