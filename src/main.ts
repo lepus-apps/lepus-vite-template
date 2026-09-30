@@ -6,13 +6,13 @@ import { setupCounter } from './counter.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
-    <a href="https://github.com/lepus-apps/lepus" target="_blank">
+    <a href="https://lepus.oboard.fun/" target="_blank">
       <img src="${lepusLogo}" class="logo" alt="Lepus logo" />
     </a>
     <a href="https://moonbitlang.cn/" target="_blank">
       <img src="${moonbitLogo}" class="logo vanilla" alt="MoonBit logo" />
     </a>
-    <a href="https://vite.dev" target="_blank">
+    <a href="https://vite.dev/" target="_blank">
       <img src="${viteLogo}" class="logo" alt="Vite logo" />
     </a>
     <h1>Lepus + MoonBit + Vite</h1>

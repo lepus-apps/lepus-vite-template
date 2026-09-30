@@ -3,7 +3,7 @@ name = "lepus-apps/lepus-vite-template"
 version = "0.1.0"
 
 import {
-  "lepus-apps/lepus@0.2.3",
+  "lepus-apps/lepus@0.2.5",
   "moonbitlang/async@0.22.4",
 }
 
