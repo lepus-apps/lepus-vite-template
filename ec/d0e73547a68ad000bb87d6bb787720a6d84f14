@@ -1,0 +1,18 @@
+main.mbt
+  h_c7606fb8f0c97c 4
+src/main.ts
+  h_c7606fb8f0c97c 9,15
+package.json
+  h_c7606fb8f0c97c 7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.7",
+  "base_commit_sha": "ecd0e73547a68ad000bb87d6bb787720a6d84f14",
+  "prompts": {},
+  "humans": {
+    "h_c7606fb8f0c97c": {
+      "author": "oboard <oboard@outlook.com>"
+    }
+  }
+}
